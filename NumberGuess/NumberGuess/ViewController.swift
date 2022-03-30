@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstResponseLabel: UILabel!
     @IBOutlet weak var secondResponseLabel: UILabel!
 
-    // some local variables for the game
+    // some member variables for the game
     var secretNumber:Int = 0
     var guessCount:Int = 0
     
