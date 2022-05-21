@@ -15,10 +15,10 @@ class ViewController: UIViewController {
         let alert = UIAlertController(
             title: "Hello World!",
             message: "You just made your first iOS app!",
-            preferredStyle: UIAlertControllerStyle.alert)
+            preferredStyle: UIAlertController.Style.alert)
         
         // add an action (button)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
 
         // show the alert
         self.present(alert, animated: true, completion: nil)
