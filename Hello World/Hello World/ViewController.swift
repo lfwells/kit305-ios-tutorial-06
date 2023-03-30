@@ -13,9 +13,9 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         // create an alert view
         let alert = UIAlertController(
-            title: "Hello World!",
-            message: "You just made your first iOS app!",
-            preferredStyle: UIAlertController.Style.alert)
+            title: "Xcode Problem!",
+            message: "Not compatible with IOS 16.4!",
+            preferredStyle: UIAlertControllerStyle.actionSheet)
         
         // add an action (button)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
@@ -23,6 +23,6 @@ class ViewController: UIViewController {
         // show the alert
         self.present(alert, animated: true, completion: nil)
         
-        
+        print("Got to this part of the program")
     }
 }
